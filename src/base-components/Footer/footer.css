@@ -1,0 +1,24 @@
+.footerTxt{
+    font-size: 12px;
+    text-align: center;
+    width: 25%;
+    float:left;
+}
+.footerTxt div{
+    margin-top: -5px;
+}
+.footerTxt .icon{
+    font-size:25px;
+}
+.footDiv{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle
+}
+.active-footer,
+.active-footer .icon{
+    color: #03a9f4;
+}

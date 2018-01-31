@@ -1,0 +1,57 @@
+#my-index .container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 50px;
+    left: 0;
+    overflow: auto;
+    background-color: #f0f0f0;
+}
+
+#my-index .myHead {
+    position: relative;
+    width: 100%;
+    background: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+#my-index .goWhere {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+#my-index .goOther{
+    padding: 0px;    
+}
+#my-index .goOther li {
+    position: relative;
+    margin-bottom: 0;
+    border: 0;
+    background-color: initial;
+    height: 52px;
+    line-height: 52px;
+    font-size: 15px;
+    padding-left: 14px;
+}
+
+#my-index .goOther li > span {
+    display: inline-block;
+    width: 100%;
+}
+
+#my-index .btn-wrap .btn-lg {
+    width: 100%;
+}
+
+#my-index .icon-arrow-head {
+    top: 30px !important;
+}
+#my-index .messageInfo{
+    position: relative;
+}
+.show-btn{
+    position: relative;
+    width: 90%;
+    margin-left: 5%
+}

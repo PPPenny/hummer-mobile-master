@@ -1,0 +1,9 @@
+#notice {
+    position: absolute;
+    top: 0 !important;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    background-color: #f0f0f0;
+  }

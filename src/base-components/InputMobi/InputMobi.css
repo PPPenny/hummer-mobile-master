@@ -1,0 +1,26 @@
+
+.showDiv{
+    font-size: 14px;
+    line-height: 45px;
+    height: 45px;
+    background: #fff;
+    width: 100%;
+    padding:0 10px;
+}
+.select-label{
+    position: absolute;
+    left: 10px;
+    min-width: 4em;
+}
+input{
+    width: 100%;
+    border: none;
+    height:45px;
+    line-height: 30px;
+    padding-left: 5em;
+}
+.icon-on-right{
+    position: absolute;
+    right:0;
+    font-size: 14px;
+}
