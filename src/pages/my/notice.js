@@ -6,7 +6,7 @@ import Header from '../../base-components/Header/index';
          return(<div id="notice">
              <Header title="公告" iconLeftClass="icon-arrow-left" />
              <div className="container">
-                  公告页面
+                
             </div>
              </div>
             );

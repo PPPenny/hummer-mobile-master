@@ -13,7 +13,7 @@ class FeedBack extends Component{
                 <div className="container">
                 <ShowSelect iconClass="icon-arrow-down" classTxt="select-questoin" labelTxt="问题类型" selectOption={selectOption} /> 
                 <TextArea TextareaRow="7" TextareaCount="200"/>
-                <Button type="primary" inline  style={{ position: 'absolute',bottom:'0',width:'100%' }}>提交反馈</Button>
+                <Button type="primary" inline  style={{ position: 'absolute',bottom:'0',width:'100%',borderRadius:'0px'}}>提交反馈</Button>
                 </div>
             </div>
             )

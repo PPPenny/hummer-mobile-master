@@ -3,10 +3,10 @@ import './index.css';
 import {withRouter} from "react-router-dom"
 
 class Header extends Component{
-    constructor(props){
-        super(props);
-        // this.goPre = this.goPre.bind(this);
-    }
+    // constructor(props){
+    //     super(props);
+    //     // this.goPre = this.goPre.bind(this);
+    // }
     goPre=()=>{
     //    const {history} = this.props;
        this.props.history.goBack();

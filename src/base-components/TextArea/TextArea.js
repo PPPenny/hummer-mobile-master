@@ -3,11 +3,11 @@ import { List, TextareaItem  } from 'antd-mobile';
 class Textarea extends Component{
     
 render=()=>{
-    var TextareaStyle = {
+    let TextareaStyle = {
         fontSize: '14px'
     }
     return(
-        <List renderHeader={() => ''}>
+        <List style={{marginTop:'10px'}}>
          <TextareaItem
         placeholder="请输入"
         rows={this.props.TextareaRow}
