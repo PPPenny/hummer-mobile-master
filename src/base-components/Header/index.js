@@ -14,7 +14,7 @@ class Header extends Component{
     };
     render(){
         return(
-            <header className="header">
+            <header className="header border-b">
                 <i className={"icon-left "+this.props.iconLeftClass } onClick={this.goPre}/>
                 <h1>{this.props.title}</h1>
                 

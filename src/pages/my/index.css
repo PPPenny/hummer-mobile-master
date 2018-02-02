@@ -50,7 +50,7 @@
 #my-index .messageInfo{
     position: relative;
 }
-.show-btn{
+#my-index .show-btn{
     position: relative;
     width: 90%;
     margin-left: 5%

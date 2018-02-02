@@ -26,6 +26,8 @@ class App extends Component {
                       <Route path="/order" exact component={Order} />   
                       <Route path="/clue" exact component={() => <Async load={import('./pages/clue/index')} /> } />   
                       <Route path="/my" exact component={() => <Async load={import('./pages/my/index')} /> } />   
+                      <Route path='/my/feedBack' exact component={() => <Async load={import('./pages/my/feedBack')}/>}/>
+                      <Route path='/my/notice' exact component={() => <Async load={import('./pages/my/notice')}/> }/> 
                   </Switch>
                </div>
             </BrowserRouter>
