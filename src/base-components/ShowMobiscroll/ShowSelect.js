@@ -12,9 +12,9 @@ class ShowSelect extends Component{
     showActionSheet = () => {
         const selectOption = this.props.selectOption;
         ActionSheet.showActionSheetWithOptions({
-          options: selectOption,
+          options: selectOption,//按钮标题列表
           message: '',
-          maskClosable: true,
+          maskClosable: true,//点击蒙层是否允许关闭
           'data-seed': 'logId'
         },
         (buttonIndex) => {
